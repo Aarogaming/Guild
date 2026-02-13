@@ -1,0 +1,42 @@
+{
+  "name": "devlibrary_evaluator",
+  "version": "1.0.0",
+  "description": "Comprehensive evaluation system for DevLibrary workspace analysis and improvement recommendations",
+  "author": "AAS Development Team",
+  "category": "analysis",
+  "capabilities": [
+    "dev.analyze",
+    "dev.evaluate",
+    "dev.recommend"
+  ],
+  "dependencies": [
+    "ast",
+    "pathlib",
+    "typing",
+    "dataclasses",
+    "pydantic",
+    "loguru"
+  ],
+  "entry_points": {
+    "cli": "guild.devlibrary_evaluator.cli:main",
+    "api": "guild.devlibrary_evaluator.evaluator:DevLibraryEvaluatorPlugin"
+  },
+  "configuration": {
+    "workspace_path": {
+      "type": "string",
+      "default": ".",
+      "description": "Path to the DevLibrary workspace to evaluate"
+    },
+    "output_format": {
+      "type": "string",
+      "default": "markdown",
+      "options": ["markdown", "html", "json"],
+      "description": "Output format for evaluation reports"
+    },
+    "analyzers": {
+      "type": "array",
+      "default": ["all"],
+      "description": "List of analyzers to run (or 'all' for all analyzers)"
+    }
+  }
+}

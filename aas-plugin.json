@@ -1,0 +1,41 @@
+{
+  "schemaName": "PluginManifest",
+  "schemaVersion": "1.0.0",
+  "name": "guild",
+  "version": "2.0.0",
+  "description": "Guild orchestration service module",
+  "entry": "core.py",
+  "type": "service",
+  "capabilities": [
+    {
+      "schemaName": "Capability",
+      "schemaVersion": "1.0.0",
+      "name": "guild.kernel.health",
+      "version": "1.0.0"
+    },
+    {
+      "schemaName": "Capability",
+      "schemaVersion": "1.0.0",
+      "name": "guild.tasks.read",
+      "version": "1.0.0"
+    },
+    {
+      "schemaName": "Capability",
+      "schemaVersion": "1.0.0",
+      "name": "guild.plugins.list",
+      "version": "1.0.0"
+    }
+  ],
+  "extensions": {
+    "aas": {
+      "hive": "guild",
+      "visibility": "global",
+      "exports": [
+        "guild.kernel.health",
+        "guild.tasks.read",
+        "guild.plugins.list"
+      ],
+      "kernel": "core.guild_kernel.GuildKernel"
+    }
+  }
+}

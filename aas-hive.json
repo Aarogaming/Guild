@@ -1,0 +1,28 @@
+{
+  "communication": {
+    "channels": [
+      "event_bus",
+      "outbox",
+      "nats"
+    ],
+    "require_ack": true,
+    "retries": 2,
+    "heartbeat_sec": 25,
+    "nats_subject_prefix": "aas.hive.guild",
+    "storage_root": "artifacts/hives/guild",
+    "io": {
+      "inbound_topic": "guild.inbox",
+      "outbound_topic": "guild.outbox",
+      "status_topic": "guild.status"
+    }
+  },
+  "verification": {
+    "required": true,
+    "expect_running": true
+  },
+  "repair": {
+    "recursive": true,
+    "max_attempts": 2,
+    "backoff_sec": 5
+  }
+}

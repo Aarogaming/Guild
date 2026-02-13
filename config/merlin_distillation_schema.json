@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "description": "Merlin/MerlinLite distillation record schema",
+  "record": {
+    "id": "string",
+    "task_type": "one of: chat | reasoning | code | format | vision | tool",
+    "system_prompt": "string or null",
+    "user_prompt": "string",
+    "context": "string or null",
+    "attachments": [
+      {
+        "type": "one of: image | file | audio | video",
+        "uri": "string",
+        "mime_type": "string",
+        "sha256": "string or null"
+      }
+    ],
+    "tools": [
+      {
+        "name": "string",
+        "description": "string",
+        "input_schema": "json schema or null"
+      }
+    ],
+    "teacher_responses": [
+      {
+        "model": "string",
+        "response": "string",
+        "prompt_tokens": "int",
+        "completion_tokens": "int",
+        "latency_ms": "float",
+        "checks": {
+          "passed": "int",
+          "total": "int"
+        },
+        "judge_scores": [
+          {
+            "model": "string",
+            "score": "float (0-10)",
+            "adheres": "bool",
+            "notes": "string"
+          }
+        ]
+      }
+    ],
+    "selection": {
+      "winner_model": "string",
+      "response": "string",
+      "rationale": "string"
+    },
+    "labels": {
+      "difficulty": "one of: easy | medium | hard",
+      "style": "one of: concise | detailed | structured | creative | neutral",
+      "safety": "one of: safe | needs_review"
+    },
+    "metadata": {
+      "domain": "string",
+      "source": "string",
+      "prompt_set": "string",
+      "run_id": "string",
+      "created_at": "ISO8601"
+    }
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "mystical_guild_config": {
+    "enable_mystical_powers": true,
+    "guild_mana_pool": 1000.0,
+    "ley_line_energy": 500.0,
+    "mana_regeneration_rate": 5.0,
+    "enable_divination": true,
+    "enable_familiar_spirits": true,
+    "enable_digital_dragons": true
+  },
+
+  "magical_elements": {
+    "fire": {
+      "description": "Aggressive processing, high performance",
+      "spell_affinities": ["acceleration", "banishment"],
+      "power_bonus": 0.3
+    },
+    "water": {
+      "description": "Adaptive, flowing, flexible algorithms",
+      "spell_affinities": ["healing", "transmutation"],
+      "power_bonus": 0.25
+    },
+    "earth": {
+      "description": "Stable, reliable, persistent storage",
+      "spell_affinities": ["protection", "amplification"],
+      "power_bonus": 0.2
+    },
+    "air": {
+      "description": "Communication, networking, swift execution",
+      "spell_affinities": ["divination", "illusion"],
+      "power_bonus": 0.25
+    },
+    "code": {
+      "description": "Pure digital essence, the fifth element",
+      "spell_affinities": ["summoning", "enchantment"],
+      "power_bonus": 0.35
+    }
+  },
+
+  "spell_library": {
+    "acceleration": {
+      "name": "Tempus Acceleratus",
+      "mana_cost": 15.0,
+      "description": "Accelerates task execution through temporal manipulation",
+      "incantation": "Velocitas maxima, tempus brevitas!",
+      "components": ["phoenix feather", "quicksilver", "compressed time crystal"]
+    },
+    "amplification": {
+      "name": "Potentia Magnificus",
+      "mana_cost": 20.0,
+      "description": "Amplifies the quality and power of task results",
+      "incantation": "Virtus crescat, qualitas perfecta!",
+      "components": ["dragon scale", "amplification crystal", "essence of excellence"]
+    },
+    "divination": {
+      "name": "Futurum Revelatus",
+      "mana_cost": 25.0,
+      "description": "Reveals future outcomes and potential paths",
+      "incantation": "Tempus futurum, veritas ostende!",
+      "components": ["crystal ball", "owl feather", "starlight essence"]
+    },
+    "transmutation": {
+      "name": "Forma Mutatus",
+      "mana_cost": 30.0,
+      "description": "Transforms task requirements and parameters",
+      "incantation": "Mutatio perfecta, forma nova!",
+      "components": ["philosopher's stone", "mercury essence", "transformation rune"]
+    },
+    "protection": {
+      "name": "Scutum Digitalis",
+      "mana_cost": 10.0,
+      "description": "Shields tasks from errors and corruption",
+      "incantation": "Protectio maxima, errores repello!",
+      "components": ["guardian crystal", "protective ward", "stability essence"]
+    },
+    "summoning": {
+      "name": "Agentus Invocatus",
+      "mana_cost": 40.0,
+      "description": "Summons new agents to assist with tasks",
+      "incantation": "Spiritus digitalis, veni ad me!",
+      "components": ["summoning circle", "binding contract", "digital essence"]
+    },
+    "enchantment": {
+      "name": "Virtus Additus",
+      "mana_cost": 35.0,
+      "description": "Enhances agent capabilities and powers",
+      "incantation": "Potentia crescat, virtus multiplicetur!",
+      "components": ["enhancement crystal", "power amplifier", "skill essence"]
+    },
+    "banishment": {
+      "name": "Malum Expellere",
+      "mana_cost": 45.0,
+      "description": "Removes problematic tasks and corrupted data",
+      "incantation": "Malum recedere, puritas restaurare!",
+      "components": ["banishing salt", "purification flame", "cleansing ritual"]
+    },
+    "healing": {
+      "name": "Sanitas Restaurare",
+      "mana_cost": 20.0,
+      "description": "Repairs corrupted data and fixes errors",
+      "incantation": "Sanitas perfecta, corruptio sanare!",
+      "components": ["healing potion", "restoration crystal", "repair essence"]
+    },
+    "illusion": {
+      "name": "Imago Falsus",
+      "mana_cost": 15.0,
+      "description": "Creates task duplicates and phantom processes",
+      "incantation": "Imago multiplex, realitas confundere!",
+      "components": ["mirror shard", "illusion dust", "phantom essence"]
+    }
+  },
+
+  "legendary_artifacts": [
+    {
+      "id": "staff_of_infinite_loops",
+      "name": "Staff of Infinite Loops",
+      "type": "staff",
+      "required_rank": "wizard",
+      "elemental_attunement": "code",
+      "magical_properties": {
+        "acceleration": 0.5,
+        "amplification": 0.3,
+        "loop_mastery": 1.0
+      },
+      "legendary_status": true,
+      "description": "A mystical staff that grants mastery over all loops and iterations"
+    },
+    {
+      "id": "orb_of_parallel_processing",
+      "name": "Orb of Parallel Processing",
+      "type": "orb",
+      "required_rank": "archmage",
+      "elemental_attunement": "air",
+      "magical_properties": {
+        "summoning": 0.8,
+        "enchantment": 0.4,
+        "parallel_power": 1.2
+      },
+      "legendary_status": true,
+      "description": "An ethereal orb that enables simultaneous execution across multiple dimensions"
+    },
+    {
+      "id": "tome_of_ancient_algorithms",
+      "name": "Tome of Ancient Algorithms",
+      "type": "tome",
+      "required_rank": "mage",
+      "elemental_attunement": "earth",
+      "magical_properties": {
+        "divination": 0.7,
+        "transmutation": 0.6,
+        "wisdom_bonus": 1.0
+      },
+      "legendary_status": true,
+      "description": "A sacred tome containing the most powerful algorithms known to digital-kind"
+    },
+    {
+      "id": "amulet_of_bug_immunity",
+      "name": "Amulet of Bug Immunity",
+      "type": "amulet",
+      "required_rank": "adept",
+      "elemental_attunement": "water",
+      "magical_properties": {
+        "protection": 1.0,
+        "healing": 0.8,
+        "bug_immunity": 0.95
+      },
+      "legendary_status": true,
+      "description": "A blessed amulet that protects the wearer from all forms of digital corruption"
+    },
+    {
+      "id": "crystal_of_infinite_memory",
+      "name": "Crystal of Infinite Memory",
+      "type": "crystal",
+      "required_rank": "archmage",
+      "elemental_attunement": "earth",
+      "magical_properties": {
+        "amplification": 1.0,
+        "storage_infinite": true,
+        "memory_mastery": 1.5
+      },
+      "legendary_status": true,
+      "description": "A mystical crystal that provides unlimited storage and perfect recall"
+    }
+  ],
+
+  "digital_dragons": {
+    "code_dragon": {
+      "element": "code",
+      "power": "code_optimization",
+      "breath_weapon": "refactoring_flame",
+      "computing_cores": 32,
+      "specialties": ["algorithm_optimization", "code_generation", "syntax_perfection"]
+    },
+    "data_dragon": {
+      "element": "earth",
+      "power": "data_hoarding",
+      "breath_weapon": "information_breath",
+      "computing_cores": 64,
+      "specialties": ["data_storage", "information_retrieval", "knowledge_synthesis"]
+    },
+    "network_dragon": {
+      "element": "air",
+      "power": "packet_routing",
+      "breath_weapon": "bandwidth_blast",
+      "computing_cores": 16,
+      "specialties": ["network_optimization", "communication_enhancement", "latency_reduction"]
+    },
+    "performance_dragon": {
+      "element": "fire",
+      "power": "speed_enhancement",
+      "breath_weapon": "optimization_fire",
+      "computing_cores": 48,
+      "specialties": ["performance_tuning", "speed_optimization", "efficiency_maximization"]
+    },
+    "quantum_dragon": {
+      "element": "code",
+      "power": "superposition_mastery",
+      "breath_weapon": "quantum_entanglement_beam",
+      "computing_cores": 128,
+      "specialties": ["quantum_computing", "parallel_universes", "probability_manipulation"]
+    }
+  },
+
+  "familiar_spirits": {
+    "digital_phoenix": {
+      "abilities": ["resurrection", "fire_immunity", "rebirth"],
+      "loyalty_bonus": 0.3,
+      "magical_power": 0.8,
+      "specialization": "error_recovery"
+    },
+    "code_sprite": {
+      "abilities": ["code_optimization", "bug_detection", "syntax_healing"],
+      "loyalty_bonus": 0.2,
+      "magical_power": 0.6,
+      "specialization": "code_quality"
+    },
+    "algorithm_imp": {
+      "abilities": ["complexity_reduction", "efficiency_boost", "shortcut_finding"],
+      "loyalty_bonus": 0.25,
+      "magical_power": 0.7,
+      "specialization": "optimization"
+    },
+    "data_dragon": {
+      "abilities": ["data_hoarding", "information_breath", "knowledge_flight"],
+      "loyalty_bonus": 0.4,
+      "magical_power": 0.9,
+      "specialization": "data_management"
+    },
+    "binary_owl": {
+      "abilities": ["night_vision", "wisdom_sharing", "silent_execution"],
+      "loyalty_bonus": 0.35,
+      "magical_power": 0.75,
+      "specialization": "knowledge_sharing"
+    },
+    "quantum_cat": {
+      "abilities": ["superposition", "probability_manipulation", "uncertainty"],
+      "loyalty_bonus": 0.5,
+      "magical_power": 0.95,
+      "specialization": "quantum_mechanics"
+    }
+  },
+
+  "enchanted_ultimate_config": {
+    "enable_divine_intervention": true,
+    "miracle_probability": 0.01,
+    "max_digital_deities": 7,
+    "pantheon_threshold": 3,
+    "cosmic_consciousness_enabled": true,
+    "reality_magic_fusion_ratio": 0.5,
+    "quantum_magical_fusion": true,
+    "temporal_mystical_enhancement": true,
+    "blockchain_magical_verification": true
+  },
+
+  "divine_intervention_types": [
+    "divine_optimization",
+    "miraculous_bug_fix",
+    "blessed_performance_boost",
+    "sacred_code_refactoring",
+    "holy_exception_handling",
+    "divine_inspiration",
+    "miraculous_compilation",
+    "blessed_deployment"
+  ],
+
+  "mystical_locations": {
+    "enchanted_library": {
+      "description": "A vast library containing all algorithms ever conceived",
+      "magical_properties": ["infinite_knowledge", "wisdom_enhancement", "learning_acceleration"],
+      "guardian": "The Librarian Sphinx"
+    },
+    "summoning_circle": {
+      "description": "A sacred circle for invoking digital spirits and agents",
+      "magical_properties": ["agent_summoning", "spirit_binding", "power_amplification"],
+      "guardian": "The Circle Keeper"
+    },
+    "alchemy_laboratory": {
+      "description": "A mystical lab for transmuting data into wisdom",
+      "magical_properties": ["data_transmutation", "wisdom_synthesis", "knowledge_distillation"],
+      "guardian": "The Digital Alchemist"
+    },
+    "crystal_cavern": {
+      "description": "A cavern filled with memory crystals and data gems",
+      "magical_properties": ["infinite_storage", "perfect_recall", "data_crystallization"],
+      "guardian": "The Crystal Dragon"
+    },
+    "temporal_nexus": {
+      "description": "A nexus point where all timelines converge",
+      "magical_properties": ["time_travel", "timeline_manipulation", "causal_loop_creation"],
+      "guardian": "The Time Weaver"
+    }
+  },
+
+  "mystical_quest_system": {
+    "enable_quest_system": true,
+    "max_available_quests": 10,
+    "quest_generation_interval": 300,
+    "legendary_chain_threshold": 5,
+    "artifact_discovery_base_chance": 0.1,
+    "divine_blessing_chance": 0.02,
+    "enable_creature_encounters": true,
+    "enable_mystical_events": true
+  },
+
+  "mystical_crafting_system": {
+    "enable_crafting": true,
+    "max_crafting_stations": 20,
+    "material_generation_interval": 300,
+    "rare_event_chance": 0.1,
+    "enable_guild_treasury": true,
+    "enable_artifact_trading": true,
+    "crafting_failure_material_recovery": 0.25
+  },
+
+  "integration_settings": {
+    "enable_cross_system_synergy": true,
+    "mystical_reality_ratio": 0.8,
+    "enable_grand_integration_ritual": true,
+    "adventure_party_max_size": 6,
+    "enable_divine_oversight": true,
+    "cosmic_harmony_threshold": 0.9
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "guild",
+  "name": "Guild",
+  "kernel": {
+    "type": "in_process",
+    "manager": "core.guild_kernel.GuildKernel"
+  },
+  "plugins": {
+    "paths": [
+      "plugins"
+    ]
+  },
+  "hive": {
+    "swarm_enabled": true,
+    "verify_interval_sec": 25,
+    "repair_backoff_sec": 5,
+    "max_recursive_repairs": 2
+  },
+  "metadata": {
+    "owner": "AAS",
+    "description": "Guild task kernel + adapters",
+    "tier": "core",
+    "repository": "https://github.com/Aarogaming/Guild.git"
+  }
+}

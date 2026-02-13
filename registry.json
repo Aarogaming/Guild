@@ -1,0 +1,4960 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "last_updated": "2026-01-31",
+  "metadata": {
+    "agents": [
+      "Sixth",
+      "CodeGPT",
+      "GitHub Copilot",
+      "Copilot"
+    ],
+    "description": "Task registry for AAS Autonomous Handoff Protocol",
+    "source": "guild/ACTIVE_TASKS.md"
+  },
+  "statistics": {
+    "agents_active": 4,
+    "completed": 140,
+    "in_progress": 0,
+    "queued": 114,
+    "total_tasks": 449
+  },
+  "stats": {
+    "by_status": {
+      "Blocked": 3,
+      "Done": 140,
+      "Queued": 113,
+      "Unknown": 193
+    },
+    "total": 449
+  },
+  "tasks": {
+    "AAS-001": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-001",
+      "priority": "Urgent",
+      "status": "Queued",
+      "title": "Build a Multi-Modal Research Agent",
+      "updated": null
+    },
+    "AAS-002": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-002",
+      "priority": "High",
+      "status": "Done",
+      "title": "Build a Multi-Modal Research Agent",
+      "updated": null
+    },
+    "AAS-003": {
+      "assignee": "Copilot",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-003",
+      "priority": "Urgent",
+      "status": "Done",
+      "title": "Implement Pydantic RCS",
+      "updated": null
+    },
+    "AAS-004": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-003"
+      ],
+      "id": "AAS-004",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Connect Linear API (Bi-directional Sync)",
+      "updated": null
+    },
+    "AAS-005": {
+      "assignee": "Copilot",
+      "created": null,
+      "dependencies": [
+        "AAS-001"
+      ],
+      "id": "AAS-005",
+      "priority": "Urgent",
+      "status": "Done",
+      "title": "Add Task Dependencies to Handoff",
+      "updated": "2026-01-31"
+    },
+    "AAS-006": {
+      "assignee": "Copilot",
+      "created": null,
+      "dependencies": [
+        "AAS-005"
+      ],
+      "id": "AAS-006",
+      "priority": "High",
+      "status": "Done",
+      "title": "Enhance Health Monitoring",
+      "updated": null
+    },
+    "AAS-007": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-003"
+      ],
+      "id": "AAS-007",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Integrate LangGraph for Agentic Workflows",
+      "updated": null
+    },
+    "AAS-008": {
+      "assignee": "Copilot",
+      "created": null,
+      "dependencies": [
+        "AAS-003"
+      ],
+      "id": "AAS-008",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Local LLM Support (Ollama)",
+      "updated": null
+    },
+    "AAS-009": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-003"
+      ],
+      "id": "AAS-009",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Home Assistant Integration",
+      "updated": null
+    },
+    "AAS-010": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-007"
+      ],
+      "id": "AAS-010",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Multi-Modal Vision Research",
+      "updated": null
+    },
+    "AAS-011": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-006"
+      ],
+      "id": "AAS-011",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Autonomous SysAdmin",
+      "updated": null
+    },
+    "AAS-012": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-012",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "AutoWizard101 Migration",
+      "updated": null
+    },
+    "AAS-013": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-012"
+      ],
+      "id": "AAS-013",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Deimos-Wizard101 Port",
+      "updated": null
+    },
+    "AAS-014": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-014",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "DanceBot Integration",
+      "updated": null
+    },
+    "AAS-104": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-104",
+      "priority": "High",
+      "status": "Done",
+      "title": "Integrate OpenAI Agents SDK",
+      "updated": null
+    },
+    "AAS-105": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-105",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Build ChatKit Agent Dashboard",
+      "updated": null
+    },
+    "AAS-106": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [
+        "AAS-003"
+      ],
+      "id": "AAS-106",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Migrate to OpenAI Responses API",
+      "updated": null
+    },
+    "AAS-107": {
+      "assignee": "Copilot",
+      "created": null,
+      "dependencies": [
+        "AAS-003"
+      ],
+      "id": "AAS-107",
+      "priority": "Urgent",
+      "status": "Unknown",
+      "title": "Implement CLI Task Management",
+      "updated": null
+    },
+    "AAS-108": {
+      "assignee": "Sixth",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-108",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Build a Multi-Modal Research Agent",
+      "updated": null
+    },
+    "AAS-109": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-109",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Integrate Penpot Design System",
+      "updated": null
+    },
+    "AAS-110": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-110",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Integrate DevToys SDK Extensions",
+      "updated": null
+    },
+    "AAS-112": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-112",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Integrate ngrok Tunneling for Development",
+      "updated": null
+    },
+    "AAS-113": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-113",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Build Unified Task Manager with Workspace Monitor",
+      "updated": null
+    },
+    "AAS-114": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-114",
+      "priority": "High",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-119": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-119",
+      "priority": "High",
+      "status": "Done",
+      "title": "Implement Live Event Stream (WebSockets)",
+      "updated": null
+    },
+    "AAS-201": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-201",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-203": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-203",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-205": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-205",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-207": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-207",
+      "priority": "High",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-208": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-208",
+      "priority": "High",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-209": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-209",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-211": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-211",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/ROADMAP_INTEGRATION.md",
+      "updated": null
+    },
+    "AAS-212": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-212",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-213": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-213",
+      "priority": "High",
+      "status": "Done",
+      "title": "Implement Live Event Stream (WebSockets)",
+      "updated": null
+    },
+    "AAS-214": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-214",
+      "priority": "High",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-215": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-215",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-216": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-216",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-220": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-220",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-221": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-221",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-222": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-222",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-223": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-223",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-224": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-224",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-225": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-225",
+      "priority": "High",
+      "status": "Done",
+      "title": "Implement Background Task Queue",
+      "updated": null
+    },
+    "AAS-226": {
+      "assignee": "Codex",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-226",
+      "priority": "Low",
+      "status": "Done",
+      "title": "WebSocket Test Task",
+      "updated": "2026-01-18"
+    },
+    "AAS-227": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-227",
+      "priority": "High",
+      "status": "Done",
+      "title": "AaroneousAutomationSuite/artifacts/handoff/NEXT_100_TASKS.md",
+      "updated": null
+    },
+    "AAS-228": {
+      "assignee": "Codex",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-228",
+      "priority": "High",
+      "status": "Done",
+      "title": "Build Integration Engine",
+      "updated": "2026-01-31"
+    },
+    "AAS-229": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-229",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Implement API Integration",
+      "updated": null
+    },
+    "AAS-230": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-230",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Design UI Components",
+      "updated": null
+    },
+    "AAS-231": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-231",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Implement State Management",
+      "updated": null
+    },
+    "AAS-232": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-232",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add Error Handling and Loading States",
+      "updated": null
+    },
+    "AAS-233": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-233",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Deploy the Application",
+      "updated": null
+    },
+    "AAS-234": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-227"
+      ],
+      "id": "AAS-234",
+      "priority": "Urgent",
+      "status": "Queued",
+      "title": "Create Code Generator Module",
+      "updated": null
+    },
+    "AAS-235": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-227"
+      ],
+      "id": "AAS-235",
+      "priority": "Urgent",
+      "status": "Queued",
+      "title": "Create File Applier Module",
+      "updated": null
+    },
+    "AAS-236": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-227"
+      ],
+      "id": "AAS-236",
+      "priority": "Urgent",
+      "status": "Queued",
+      "title": "Create Validation Module",
+      "updated": null
+    },
+    "AAS-237": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-234"
+      ],
+      "id": "AAS-237",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Build Jinja2 Plugin Templates",
+      "updated": null
+    },
+    "AAS-238": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-227"
+      ],
+      "id": "AAS-238",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Implement Batch Result Parser",
+      "updated": null
+    },
+    "AAS-239": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-227",
+        "AAS-235"
+      ],
+      "id": "AAS-239",
+      "priority": "Urgent",
+      "status": "Queued",
+      "title": "Integrate Implementation Engine with Batch Monitor",
+      "updated": null
+    },
+    "AAS-240": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-239"
+      ],
+      "id": "AAS-240",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add Auto-Update for ACTIVE_TASKS.md",
+      "updated": null
+    },
+    "AAS-241": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-228"
+      ],
+      "id": "AAS-241",
+      "priority": "Urgent",
+      "status": "Done",
+      "title": "Build Pipeline State Machine",
+      "updated": "2026-01-31"
+    },
+    "AAS-242": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-241"
+      ],
+      "id": "AAS-242",
+      "priority": "High",
+      "status": "Done",
+      "title": "Create Pipeline Stages Module",
+      "updated": "2026-01-31"
+    },
+    "AAS-243": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-228"
+      ],
+      "id": "AAS-243",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Build Notification System",
+      "updated": null
+    },
+    "AAS-244": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-241"
+      ],
+      "id": "AAS-244",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Pipeline Recovery",
+      "updated": null
+    },
+    "AAS-245": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-241",
+        "AAS-214"
+      ],
+      "id": "AAS-245",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Create Pipeline Monitoring Dashboard",
+      "updated": null
+    },
+    "AAS-246": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-228"
+      ],
+      "id": "AAS-246",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add CLI Interface for Orchestrator",
+      "updated": null
+    },
+    "AAS-247": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-228"
+      ],
+      "id": "AAS-247",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Cost Tracking",
+      "updated": null
+    },
+    "AAS-248": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-241"
+      ],
+      "id": "AAS-248",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Create Automation Metrics Collection",
+      "updated": null
+    },
+    "AAS-249": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-249",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Structured Logging",
+      "updated": null
+    },
+    "AAS-250": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-250",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add Database Connection Pooling",
+      "updated": null
+    },
+    "AAS-251": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-201"
+      ],
+      "id": "AAS-251",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Configuration Hot-Reload",
+      "updated": null
+    },
+    "AAS-252": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-252",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add Health Check Endpoints",
+      "updated": null
+    },
+    "AAS-253": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-253",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Graceful Shutdown",
+      "updated": null
+    },
+    "AAS-254": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-254",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Rate Limiting Framework",
+      "updated": null
+    },
+    "AAS-255": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-255",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Retry Logic with Exponential Backoff",
+      "updated": null
+    },
+    "AAS-256": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-256",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Create Dependency Injection Container",
+      "updated": null
+    },
+    "AAS-257": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-201"
+      ],
+      "id": "AAS-257",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Environment-Specific Configurations",
+      "updated": null
+    },
+    "AAS-258": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-255"
+      ],
+      "id": "AAS-258",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Circuit Breaker Pattern",
+      "updated": null
+    },
+    "AAS-259": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-259",
+      "priority": "Urgent",
+      "status": "Unknown",
+      "title": "AaroneousAutomationSuite/artifacts/handoff/NEXT_100_TASKS.md",
+      "updated": null
+    },
+    "AAS-260": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-259"
+      ],
+      "id": "AAS-260",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add IPC Command Authentication",
+      "updated": null
+    },
+    "AAS-261": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-259"
+      ],
+      "id": "AAS-261",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement IPC Message Encryption",
+      "updated": null
+    },
+    "AAS-262": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-254"
+      ],
+      "id": "AAS-262",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add IPC Rate Limiting",
+      "updated": null
+    },
+    "AAS-263": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-263",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Implement IPC Connection Pooling",
+      "updated": null
+    },
+    "AAS-264": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-225"
+      ],
+      "id": "AAS-264",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add IPC Command Queueing",
+      "updated": null
+    },
+    "AAS-265": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-214"
+      ],
+      "id": "AAS-265",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Create IPC Monitoring Dashboard",
+      "updated": null
+    },
+    "AAS-266": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-266",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement IPC Heartbeat Protocol",
+      "updated": null
+    },
+    "AAS-267": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-267",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "AaroneousAutomationSuite/artifacts/handoff/NEXT_100_TASKS.md",
+      "updated": null
+    },
+    "AAS-268": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-268",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Plugin Versioning System",
+      "updated": null
+    },
+    "AAS-269": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-269",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Create Plugin Manifest Standard",
+      "updated": null
+    },
+    "AAS-270": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-269"
+      ],
+      "id": "AAS-270",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Plugin Dependency Resolution",
+      "updated": null
+    },
+    "AAS-271": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-271",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add Plugin Sandboxing",
+      "updated": null
+    },
+    "AAS-272": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-224"
+      ],
+      "id": "AAS-272",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Create Plugin Marketplace API",
+      "updated": null
+    },
+    "AAS-273": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-272"
+      ],
+      "id": "AAS-273",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Implement Plugin Auto-Updates",
+      "updated": null
+    },
+    "AAS-274": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-214"
+      ],
+      "id": "AAS-274",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Plugin Configuration UI",
+      "updated": null
+    },
+    "AAS-275": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-237"
+      ],
+      "id": "AAS-275",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Create Plugin Template Generator",
+      "updated": null
+    },
+    "AAS-276": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-276",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Plugin Event Bus",
+      "updated": null
+    },
+    "AAS-277": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-214"
+      ],
+      "id": "AAS-277",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Add Plugin Performance Monitoring",
+      "updated": null
+    },
+    "AAS-278": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-220"
+      ],
+      "id": "AAS-278",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Create Plugin Testing Framework",
+      "updated": null
+    },
+    "AAS-279": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-279",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Integrate Local LLM Support (Ollama)",
+      "updated": null
+    },
+    "AAS-280": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-280",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement RAG Pipeline",
+      "updated": null
+    },
+    "AAS-281": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-281",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Conversation Memory",
+      "updated": null
+    },
+    "AAS-282": {
+      "assignee": "GitHub Copilot",
+      "created": null,
+      "dependencies": [
+        "AAS-113"
+      ],
+      "id": "AAS-282",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Implement Code-Aware Completions",
+      "updated": null
+    },
+    "AAS-283": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-222"
+      ],
+      "id": "AAS-283",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Voice Input/Output",
+      "updated": null
+    },
+    "AAS-284": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-284",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Create AI Tool Registry",
+      "updated": null
+    },
+    "AAS-285": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-285",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Implement Multi-Agent Conversations",
+      "updated": null
+    },
+    "AAS-286": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-286",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Add AI Prompt Templates",
+      "updated": null
+    },
+    "AAS-287": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-287",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement AI Context Summarization",
+      "updated": null
+    },
+    "AAS-288": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-214"
+      ],
+      "id": "AAS-288",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Create AI Agent Analytics",
+      "updated": null
+    },
+    "AAS-289": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-289",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Complete Home Assistant Integration",
+      "updated": null
+    },
+    "AAS-290": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-283"
+      ],
+      "id": "AAS-290",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Voice Command Bridge",
+      "updated": null
+    },
+    "AAS-291": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-289"
+      ],
+      "id": "AAS-291",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Device Discovery",
+      "updated": null
+    },
+    "AAS-292": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-289"
+      ],
+      "id": "AAS-292",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Create Home Automation Scenes",
+      "updated": null
+    },
+    "AAS-293": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-289"
+      ],
+      "id": "AAS-293",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Presence Detection",
+      "updated": null
+    },
+    "AAS-294": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-289"
+      ],
+      "id": "AAS-294",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Add Energy Monitoring",
+      "updated": null
+    },
+    "AAS-295": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-214"
+      ],
+      "id": "AAS-295",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Create Mobile App Integration",
+      "updated": null
+    },
+    "AAS-296": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-295"
+      ],
+      "id": "AAS-296",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Implement Smart Notifications",
+      "updated": null
+    },
+    "AAS-297": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-014"
+      ],
+      "id": "AAS-297",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Integrate Existing DanceBot Code",
+      "updated": null
+    },
+    "AAS-298": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-297"
+      ],
+      "id": "AAS-298",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Visual Debugging Mode",
+      "updated": null
+    },
+    "AAS-299": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-297"
+      ],
+      "id": "AAS-299",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Implement Performance Metrics",
+      "updated": null
+    },
+    "AAS-300": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-297"
+      ],
+      "id": "AAS-300",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Add Multi-Monitor Support",
+      "updated": null
+    },
+    "AAS-301": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-297"
+      ],
+      "id": "AAS-301",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-302": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-297"
+      ],
+      "id": "AAS-302",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md, AaroneousAutomationSuite/docs/ROADMAP.md",
+      "updated": null
+    },
+    "AAS-303": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-215"
+      ],
+      "id": "AAS-303",
+      "priority": "High",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-304": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-303"
+      ],
+      "id": "AAS-304",
+      "priority": "High",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-305": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-304"
+      ],
+      "id": "AAS-305",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Custom Node Creation",
+      "updated": null
+    },
+    "AAS-306": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-303"
+      ],
+      "id": "AAS-306",
+      "priority": "Urgent",
+      "status": "Unknown",
+      "title": "Implement Workflow Execution Engine",
+      "updated": null
+    },
+    "AAS-307": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-306"
+      ],
+      "id": "AAS-307",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Workflow Debugging",
+      "updated": null
+    },
+    "AAS-308": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-306"
+      ],
+      "id": "AAS-308",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Create Workflow Templates",
+      "updated": null
+    },
+    "AAS-309": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-272",
+        "AAS-306"
+      ],
+      "id": "AAS-309",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Implement Workflow Sharing",
+      "updated": null
+    },
+    "AAS-310": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-306"
+      ],
+      "id": "AAS-310",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Add Workflow Version Control",
+      "updated": null
+    },
+    "AAS-311": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-311",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Screen Recording Pipeline",
+      "updated": null
+    },
+    "AAS-312": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-311"
+      ],
+      "id": "AAS-312",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Action Annotation Tool",
+      "updated": null
+    },
+    "AAS-313": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-312"
+      ],
+      "id": "AAS-313",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Create Behavioral Cloning Model",
+      "updated": null
+    },
+    "AAS-314": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-313"
+      ],
+      "id": "AAS-314",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Model Inference Engine",
+      "updated": null
+    },
+    "AAS-315": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-314"
+      ],
+      "id": "AAS-315",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Reinforcement Learning Loop",
+      "updated": null
+    },
+    "AAS-316": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-313"
+      ],
+      "id": "AAS-316",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Create Training Dashboard",
+      "updated": null
+    },
+    "AAS-317": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-220"
+      ],
+      "id": "AAS-317",
+      "priority": "Urgent",
+      "status": "Unknown",
+      "title": "AaroneousAutomationSuite/artifacts/handoff/NEXT_100_TASKS.md",
+      "updated": null
+    },
+    "AAS-318": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-317"
+      ],
+      "id": "AAS-318",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Integration Tests",
+      "updated": null
+    },
+    "AAS-319": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-317"
+      ],
+      "id": "AAS-319",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add Continuous Integration (CI)",
+      "updated": null
+    },
+    "AAS-320": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-320",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Create Load Testing Suite",
+      "updated": null
+    },
+    "AAS-321": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-321",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Implement Fuzz Testing",
+      "updated": null
+    },
+    "AAS-322": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-319"
+      ],
+      "id": "AAS-322",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Add Code Quality Gates",
+      "updated": null
+    },
+    "AAS-323": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-317"
+      ],
+      "id": "AAS-323",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Create Test Data Generators",
+      "updated": null
+    },
+    "AAS-324": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-319"
+      ],
+      "id": "AAS-324",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Regression Testing",
+      "updated": null
+    },
+    "AAS-325": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-223"
+      ],
+      "id": "AAS-325",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "AaroneousAutomationSuite/artifacts/handoff/NEXT_100_TASKS.md",
+      "updated": null
+    },
+    "AAS-326": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-326",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Create Getting Started Guide",
+      "updated": null
+    },
+    "AAS-327": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-269"
+      ],
+      "id": "AAS-327",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Write Plugin Development Guide",
+      "updated": null
+    },
+    "AAS-328": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-328",
+      "priority": "Low",
+      "status": "Unknown",
+      "title": "Add Video Tutorials",
+      "updated": null
+    },
+    "AAS-329": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-329",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Create Architecture Diagrams",
+      "updated": null
+    },
+    "AAS-330": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-330",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Implement Secret Rotation",
+      "updated": null
+    },
+    "AAS-331": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [
+        "AAS-249"
+      ],
+      "id": "AAS-331",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Add Audit Logging",
+      "updated": null
+    },
+    "AAS-332": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-332",
+      "priority": "Medium",
+      "status": "Unknown",
+      "title": "Implement Role-Based Access Control (RBAC)",
+      "updated": null
+    },
+    "AAS-333": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-333",
+      "priority": "High",
+      "status": "Unknown",
+      "title": "Conduct Security Audit",
+      "updated": null
+    },
+    "AAS-401": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-401",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/DESKTOP_GUI_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-402": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-402",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-403": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-403",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-404": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-404",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-501": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-501",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-502": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-502",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-503": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-503",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-504": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-504",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "AAS-601": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-601",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-602": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-602",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-603": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-603",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-701": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-701",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-702": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-702",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-703": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-703",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-801": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-801",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-802": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-802",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-803": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-803",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "AaroneousAutomationSuite/docs/MASTER_ROADMAP.md",
+      "updated": null
+    },
+    "AAS-804": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-804",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Validate Datadog log forwarding with correct DD_SITE/API key",
+      "updated": null
+    },
+    "AAS-805": {
+      "assignee": "Codex",
+      "created": null,
+      "dependencies": [],
+      "id": "AAS-805",
+      "priority": "Medium",
+      "status": "Blocked",
+      "title": "Configure MCP auth token/API key and verify ping",
+      "updated": "2026-01-31"
+    },
+    "AD-001": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-001",
+      "priority": "High",
+      "status": "Done",
+      "title": "Add Gradle wrapper and verify scaffold builds",
+      "updated": "2026-01-11"
+    },
+    "AD-002": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-001"
+      ],
+      "id": "AD-002",
+      "priority": "High",
+      "status": "Done",
+      "title": "Implement API client to AAS/MyFortress",
+      "updated": "2026-01-11"
+    },
+    "AD-003": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-001"
+      ],
+      "id": "AD-003",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add instrumentation smoke tests",
+      "updated": "2026-01-11"
+    },
+    "AD-004": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-001"
+      ],
+      "id": "AD-004",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add CI pipeline (Gradle lint/test/build)",
+      "updated": "2026-01-11"
+    },
+    "AD-005": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-002"
+      ],
+      "id": "AD-005",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add basic UI for status/health from AAS/MyFortress",
+      "updated": "2026-01-11"
+    },
+    "AD-006": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-006",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add Android/Gradle .gitignore",
+      "updated": "2026-01-11"
+    },
+    "AD-007": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-007",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add module proguard rules file",
+      "updated": "2026-01-11"
+    },
+    "AD-008": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-008",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add base color resources for theme",
+      "updated": "2026-01-11"
+    },
+    "AD-009": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-009",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add shared spacing dimens",
+      "updated": "2026-01-11"
+    },
+    "AD-010": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-010",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add network security config for local dev",
+      "updated": "2026-01-11"
+    },
+    "AD-011": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-011",
+      "priority": "High",
+      "status": "Done",
+      "title": "Update manifest with internet/exported config",
+      "updated": "2026-01-11"
+    },
+    "AD-012": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-012",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Expand string resources (labels + base URL)",
+      "updated": "2026-01-11"
+    },
+    "AD-013": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-013",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Refresh activity layout for status screen",
+      "updated": "2026-01-11"
+    },
+    "AD-014": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-014",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Enable viewBinding for XML layout wiring",
+      "updated": "2026-01-11"
+    },
+    "AD-015": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-015",
+      "priority": "High",
+      "status": "Done",
+      "title": "Replace Compose placeholder with XML + viewBinding",
+      "updated": "2026-01-11"
+    },
+    "AD-016": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-016",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add AAS config constants",
+      "updated": "2026-01-11"
+    },
+    "AD-017": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-016"
+      ],
+      "id": "AD-017",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add AAS endpoint builder helpers",
+      "updated": "2026-01-11"
+    },
+    "AD-018": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-018",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add URL normalization helper",
+      "updated": "2026-01-11"
+    },
+    "AD-019": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-019",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add health status data model",
+      "updated": "2026-01-11"
+    },
+    "AD-020": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-019"
+      ],
+      "id": "AD-020",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add status repository interface",
+      "updated": "2026-01-11"
+    },
+    "AD-021": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-020"
+      ],
+      "id": "AD-021",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add fake repository for stub data",
+      "updated": "2026-01-11"
+    },
+    "AD-022": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-021"
+      ],
+      "id": "AD-022",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Wire status repository into MainActivity",
+      "updated": "2026-01-11"
+    },
+    "AD-023": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-018"
+      ],
+      "id": "AD-023",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add unit test for UrlUtils",
+      "updated": "2026-01-11"
+    },
+    "AD-024": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-024",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add Android goals doc",
+      "updated": "2026-01-11"
+    },
+    "AD-025": {
+      "assignee": "Android Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "AD-025",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add API contracts doc + README refresh",
+      "updated": "2026-01-11"
+    },
+    "AD-026": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-002"
+      ],
+      "id": "AD-026",
+      "priority": "High",
+      "status": "Done",
+      "title": "Align MyFortress health endpoint with contract (/health)",
+      "updated": "2026-01-11"
+    },
+    "AD-027": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-026"
+      ],
+      "id": "AD-027",
+      "priority": "High",
+      "status": "Done",
+      "title": "Add separate hub/gateway base URL config with persistence",
+      "updated": "2026-01-11"
+    },
+    "AD-028": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-027"
+      ],
+      "id": "AD-028",
+      "priority": "High",
+      "status": "Done",
+      "title": "Replace status strings with structured status model",
+      "updated": "2026-01-11"
+    },
+    "AD-029": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-027"
+      ],
+      "id": "AD-029",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add hub/gateway base URL inputs to status screen",
+      "updated": "2026-01-11"
+    },
+    "AD-030": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-028"
+      ],
+      "id": "AD-030",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add status display mapping with color-coded text",
+      "updated": "2026-01-11"
+    },
+    "AD-031": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-027"
+      ],
+      "id": "AD-031",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add offline detection for refresh flow",
+      "updated": "2026-01-11"
+    },
+    "AD-032": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-028"
+      ],
+      "id": "AD-032",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add error detail line for status failures",
+      "updated": "2026-01-11"
+    },
+    "AD-033": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-027"
+      ],
+      "id": "AD-033",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add refresh in-progress state handling",
+      "updated": "2026-01-11"
+    },
+    "AD-034": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-026"
+      ],
+      "id": "AD-034",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add unit tests for endpoint builders",
+      "updated": "2026-01-11"
+    },
+    "AD-035": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-035",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add unit tests for status mapping",
+      "updated": "2026-01-11"
+    },
+    "AD-036": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-018"
+      ],
+      "id": "AD-036",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Expand URL normalization tests (scheme/blank)",
+      "updated": "2026-01-11"
+    },
+    "AD-037": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-037",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Update instrumentation smoke test for new fields",
+      "updated": "2026-01-11"
+    },
+    "AD-038": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-012"
+      ],
+      "id": "AD-038",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Update string resources for status labels + hints",
+      "updated": "2026-01-11"
+    },
+    "AD-039": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-008"
+      ],
+      "id": "AD-039",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add status color resources for UI",
+      "updated": "2026-01-11"
+    },
+    "AD-040": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-031"
+      ],
+      "id": "AD-040",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add NetworkUtils helper for connectivity checks",
+      "updated": "2026-01-11"
+    },
+    "AD-041": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-025"
+      ],
+      "id": "AD-041",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Update API contract docs for base URLs/endpoints",
+      "updated": "2026-01-11"
+    },
+    "AD-042": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-025"
+      ],
+      "id": "AD-042",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Update README with in-app base URL config note",
+      "updated": "2026-01-11"
+    },
+    "AD-043": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-027"
+      ],
+      "id": "AD-043",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add gateway base URL default for local dev",
+      "updated": "2026-01-11"
+    },
+    "AD-044": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-032"
+      ],
+      "id": "AD-044",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add error formatting string + UI label",
+      "updated": "2026-01-11"
+    },
+    "AD-045": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-045",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add status code-aware healthy label",
+      "updated": "2026-01-11"
+    },
+    "AD-046": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-046",
+      "priority": "High",
+      "status": "Done",
+      "title": "Add inline base URL validation + disable refresh on invalid input",
+      "updated": "2026-01-11"
+    },
+    "AD-047": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-027"
+      ],
+      "id": "AD-047",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Migrate base URL persistence to DataStore",
+      "updated": "2026-01-11"
+    },
+    "AD-048": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-048",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add clear buttons for base URL inputs",
+      "updated": "2026-01-11"
+    },
+    "AD-049": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-049",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add swipe-to-refresh gesture",
+      "updated": "2026-01-11"
+    },
+    "AD-050": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-050",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add periodic auto-refresh with interval selector",
+      "updated": "2026-01-11"
+    },
+    "AD-051": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-051",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add elapsed time since last refresh",
+      "updated": "2026-01-11"
+    },
+    "AD-052": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-052",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add status icons beside hub/gateway labels",
+      "updated": "2026-01-11"
+    },
+    "AD-053": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-053",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add copy-to-clipboard actions for base URLs",
+      "updated": "2026-01-11"
+    },
+    "AD-054": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-054",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add paste-from-clipboard shortcut for inputs",
+      "updated": "2026-01-11"
+    },
+    "AD-055": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-055",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add helper text describing URL format",
+      "updated": "2026-01-11"
+    },
+    "AD-056": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-056",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add reset-to-defaults action for URLs",
+      "updated": "2026-01-11"
+    },
+    "AD-057": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-057",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add settings screen for URLs and refresh options",
+      "updated": "2026-01-11"
+    },
+    "AD-058": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-057"
+      ],
+      "id": "AD-058",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add navigation to settings from main screen",
+      "updated": "2026-01-11"
+    },
+    "AD-059": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-059",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Tune light theme status colors for accessibility",
+      "updated": "2026-01-11"
+    },
+    "AD-060": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-060",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add dark theme status color mapping",
+      "updated": "2026-01-11"
+    },
+    "AD-061": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-028"
+      ],
+      "id": "AD-061",
+      "priority": "High",
+      "status": "Done",
+      "title": "Replace HttpURLConnection with OkHttp client",
+      "updated": "2026-01-11"
+    },
+    "AD-062": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-062",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add request logging with correlation ID",
+      "updated": "2026-01-11"
+    },
+    "AD-063": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-063",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add retry with backoff for transient errors",
+      "updated": "2026-01-11"
+    },
+    "AD-064": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-064",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add per-endpoint timeout configuration",
+      "updated": "2026-01-11"
+    },
+    "AD-065": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-065",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add MyFortress API key header support",
+      "updated": "2026-01-11"
+    },
+    "AD-066": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-066",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add Hub auth token header support",
+      "updated": "2026-01-11"
+    },
+    "AD-067": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-067",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add user agent header with app version",
+      "updated": "2026-01-11"
+    },
+    "AD-068": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-068",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add gzip accept header for requests",
+      "updated": "2026-01-11"
+    },
+    "AD-069": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-069",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add optional TLS pinning configuration",
+      "updated": "2026-01-11"
+    },
+    "AD-070": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-070",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Enforce HTTPS-only for release builds",
+      "updated": "2026-01-11"
+    },
+    "AD-071": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-070"
+      ],
+      "id": "AD-071",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Allow cleartext traffic only in debug builds",
+      "updated": "2026-01-11"
+    },
+    "AD-072": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-046"
+      ],
+      "id": "AD-072",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Expand base URL validation for IPv6/localhost",
+      "updated": "2026-01-11"
+    },
+    "AD-073": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-031"
+      ],
+      "id": "AD-073",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Detect captive portal/network without internet",
+      "updated": "2026-01-11"
+    },
+    "AD-074": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-074",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add explicit status for DNS failures",
+      "updated": "2026-01-11"
+    },
+    "AD-075": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-075",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add mock server support for dev builds",
+      "updated": "2026-01-11"
+    },
+    "AD-076": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-076",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add status history log (last 20 checks)",
+      "updated": "2026-01-11"
+    },
+    "AD-077": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-076"
+      ],
+      "id": "AD-077",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Persist status history locally",
+      "updated": "2026-01-11"
+    },
+    "AD-078": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-077"
+      ],
+      "id": "AD-078",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add simple success/failure chart",
+      "updated": "2026-01-11"
+    },
+    "AD-079": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-079",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Track per-endpoint last checked timestamp",
+      "updated": "2026-01-11"
+    },
+    "AD-080": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-032"
+      ],
+      "id": "AD-080",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Track last error timestamp per endpoint",
+      "updated": "2026-01-11"
+    },
+    "AD-081": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-081",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add status summary banner",
+      "updated": "2026-01-11"
+    },
+    "AD-082": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-081"
+      ],
+      "id": "AD-082",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add expandable detail section",
+      "updated": "2026-01-11"
+    },
+    "AD-083": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-028"
+      ],
+      "id": "AD-083",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Surface response code detail in UI",
+      "updated": "2026-01-11"
+    },
+    "AD-084": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-031"
+      ],
+      "id": "AD-084",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add offline mode message",
+      "updated": "2026-01-11"
+    },
+    "AD-085": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-050"
+      ],
+      "id": "AD-085",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add pause auto-refresh toggle",
+      "updated": "2026-01-11"
+    },
+    "AD-086": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-076"
+      ],
+      "id": "AD-086",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add notifications for status changes",
+      "updated": "2026-01-11"
+    },
+    "AD-087": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-086"
+      ],
+      "id": "AD-087",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add WorkManager for periodic checks",
+      "updated": "2026-01-11"
+    },
+    "AD-088": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-087"
+      ],
+      "id": "AD-088",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add quick tile or widget for status",
+      "updated": "2026-01-11"
+    },
+    "AD-089": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-076"
+      ],
+      "id": "AD-089",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add shareable status snapshot",
+      "updated": "2026-01-11"
+    },
+    "AD-090": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-062"
+      ],
+      "id": "AD-090",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add export logs to file",
+      "updated": "2026-01-11"
+    },
+    "AD-091": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-091",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add MockWebServer tests for HttpStatusRepository",
+      "updated": "2026-01-11"
+    },
+    "AD-092": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-031"
+      ],
+      "id": "AD-092",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add unit tests for offline status builder",
+      "updated": "2026-01-11"
+    },
+    "AD-093": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-093",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add tests for status display mapping errors",
+      "updated": "2026-01-11"
+    },
+    "AD-094": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-026"
+      ],
+      "id": "AD-094",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add tests for AasConfig defaults",
+      "updated": "2026-01-11"
+    },
+    "AD-095": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-095",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add UI test for editing URLs + refresh flow",
+      "updated": "2026-01-11"
+    },
+    "AD-096": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-032"
+      ],
+      "id": "AD-096",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add UI test for error detail text",
+      "updated": "2026-01-11"
+    },
+    "AD-097": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-084"
+      ],
+      "id": "AD-097",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add instrumentation test for offline banner",
+      "updated": "2026-01-11"
+    },
+    "AD-098": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-098",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add screenshot tests for main screen",
+      "updated": "2026-01-11"
+    },
+    "AD-099": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-099",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add lint baseline and enforce lint",
+      "updated": "2026-01-11"
+    },
+    "AD-100": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-100",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add ktlint or detekt for Kotlin style",
+      "updated": "2026-01-11"
+    },
+    "AD-101": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-101",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add unified Gradle task for lint + test",
+      "updated": "2026-01-11"
+    },
+    "AD-102": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-101"
+      ],
+      "id": "AD-102",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add JaCoCo coverage report",
+      "updated": "2026-01-11"
+    },
+    "AD-103": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-103",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add contract smoke test against local services",
+      "updated": "2026-01-11"
+    },
+    "AD-104": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-104",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add CI cache for Gradle dependencies",
+      "updated": "2026-01-11"
+    },
+    "AD-105": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-046"
+      ],
+      "id": "AD-105",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add tests for invalid URL validation",
+      "updated": "2026-01-11"
+    },
+    "AD-106": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-106",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add concurrency test to prevent double refresh",
+      "updated": "2026-01-11"
+    },
+    "AD-107": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-036"
+      ],
+      "id": "AD-107",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add unit test for URL scheme enforcement",
+      "updated": "2026-01-11"
+    },
+    "AD-108": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-035"
+      ],
+      "id": "AD-108",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add tests for StatusDisplayMapper defaults",
+      "updated": "2026-01-11"
+    },
+    "AD-109": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-033"
+      ],
+      "id": "AD-109",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add UI test for disabled refresh while loading",
+      "updated": "2026-01-11"
+    },
+    "AD-110": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-095"
+      ],
+      "id": "AD-110",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add accessibility checks to UI tests",
+      "updated": "2026-01-11"
+    },
+    "AD-111": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-111",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add versioning strategy for release builds",
+      "updated": "2026-01-11"
+    },
+    "AD-112": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-111"
+      ],
+      "id": "AD-112",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add release signing config template",
+      "updated": "2026-01-11"
+    },
+    "AD-113": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-111"
+      ],
+      "id": "AD-113",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add product flavors (dev/stage/prod)",
+      "updated": "2026-01-11"
+    },
+    "AD-114": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-113"
+      ],
+      "id": "AD-114",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add BuildConfig fields for base URLs",
+      "updated": "2026-01-11"
+    },
+    "AD-115": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-115",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Review proguard rules for networking",
+      "updated": "2026-01-11"
+    },
+    "AD-116": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-112"
+      ],
+      "id": "AD-116",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Enable shrink/obfuscation for release",
+      "updated": "2026-01-11"
+    },
+    "AD-117": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-111"
+      ],
+      "id": "AD-117",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Customize APK output naming",
+      "updated": "2026-01-11"
+    },
+    "AD-118": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-104"
+      ],
+      "id": "AD-118",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add GitHub Actions cache for build",
+      "updated": "2026-01-11"
+    },
+    "AD-119": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-003"
+      ],
+      "id": "AD-119",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add CI job for connected tests",
+      "updated": "2026-01-11"
+    },
+    "AD-120": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-111"
+      ],
+      "id": "AD-120",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add release checklist documentation",
+      "updated": "2026-01-11"
+    },
+    "AD-121": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-099"
+      ],
+      "id": "AD-121",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Gate CI on lint + unit tests",
+      "updated": "2026-01-11"
+    },
+    "AD-122": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-122",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add Gradle wrapper validation in CI",
+      "updated": "2026-01-11"
+    },
+    "AD-123": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-123",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add optional build scan config",
+      "updated": "2026-01-11"
+    },
+    "AD-124": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-111"
+      ],
+      "id": "AD-124",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add reproducible build config",
+      "updated": "2026-01-11"
+    },
+    "AD-125": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-004"
+      ],
+      "id": "AD-125",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add dependency update automation",
+      "updated": "2026-01-11"
+    },
+    "AD-126": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-028"
+      ],
+      "id": "AD-126",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Update docs for structured status model",
+      "updated": "2026-01-11"
+    },
+    "AD-127": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-031"
+      ],
+      "id": "AD-127",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add troubleshooting guide for connectivity",
+      "updated": "2026-01-11"
+    },
+    "AD-128": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-065"
+      ],
+      "id": "AD-128",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Document MyFortress API key usage",
+      "updated": "2026-01-11"
+    },
+    "AD-129": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-029"
+      ],
+      "id": "AD-129",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add onboarding setup screen",
+      "updated": "2026-01-11"
+    },
+    "AD-130": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-111"
+      ],
+      "id": "AD-130",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add About dialog with version info",
+      "updated": "2026-01-11"
+    },
+    "AD-131": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-008"
+      ],
+      "id": "AD-131",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Update app icon for AAS branding",
+      "updated": "2026-01-11"
+    },
+    "AD-132": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-038"
+      ],
+      "id": "AD-132",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add localization scaffolding",
+      "updated": "2026-01-11"
+    },
+    "AD-133": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-100"
+      ],
+      "id": "AD-133",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add string lint for hardcoded text",
+      "updated": "2026-01-11"
+    },
+    "AD-134": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-057"
+      ],
+      "id": "AD-134",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add analytics opt-in toggle",
+      "updated": "2026-01-11"
+    },
+    "AD-135": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-134"
+      ],
+      "id": "AD-135",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add privacy policy placeholder",
+      "updated": "2026-01-11"
+    },
+    "AD-136": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-090"
+      ],
+      "id": "AD-136",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add error log export and sharing",
+      "updated": "2026-01-11"
+    },
+    "AD-137": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-137",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add /system/info display from MyFortress",
+      "updated": "2026-01-11"
+    },
+    "AD-138": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-061"
+      ],
+      "id": "AD-138",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add /snapshot summary view",
+      "updated": "2026-01-11"
+    },
+    "AD-139": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-065"
+      ],
+      "id": "AD-139",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add UI for MyFortress API key entry",
+      "updated": "2026-01-11"
+    },
+    "AD-140": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-066"
+      ],
+      "id": "AD-140",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add UI for Hub auth token entry",
+      "updated": "2026-01-11"
+    },
+    "AD-141": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-057"
+      ],
+      "id": "AD-141",
+      "priority": "Low",
+      "status": "Done",
+      "title": "Add configuration import/export",
+      "updated": "2026-01-11"
+    },
+    "AD-142": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-120"
+      ],
+      "id": "AD-142",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add QA runbook for release validation",
+      "updated": "2026-01-11"
+    },
+    "AD-143": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-021"
+      ],
+      "id": "AD-143",
+      "priority": "Medium",
+      "status": "Queued",
+      "title": "Add demo mode with seeded status data",
+      "updated": "2026-01-11"
+    },
+    "AD-144": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-030"
+      ],
+      "id": "AD-144",
+      "priority": "Low",
+      "status": "Queued",
+      "title": "Add status color legend in UI",
+      "updated": "2026-01-11"
+    },
+    "AD-145": {
+      "assignee": null,
+      "created": "2026-01-11",
+      "dependencies": [
+        "AD-086"
+      ],
+      "id": "AD-145",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add notification channels for alerts",
+      "updated": "2026-01-11"
+    },
+    "AES-256": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "AES-256",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "GUI-001": {
+      "assignee": "GUI Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "GUI-001",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Add GUI CLI/task helper and docs entry",
+      "updated": "2026-01-11"
+    },
+    "GUI-002": {
+      "assignee": "GUI Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "GUI-002",
+      "priority": "High",
+      "status": "Queued",
+      "title": "Implement tray/status + DND/focus toggle (M1)",
+      "updated": "2026-01-11"
+    },
+    "GUI-003": {
+      "assignee": "GUI Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "GUI-002"
+      ],
+      "id": "GUI-003",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Hook GUI to HomeGateway/Hub APIs",
+      "updated": "2026-01-11"
+    },
+    "GUI-004": {
+      "assignee": "GUI Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "GUI-003"
+      ],
+      "id": "GUI-004",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Surface HomeGateway health/device data in dashboard",
+      "updated": "2026-01-11"
+    },
+    "GUI-005": {
+      "assignee": "GUI Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "GUI-001"
+      ],
+      "id": "GUI-005",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add GUI CLI entry and task wrapper",
+      "updated": "2026-01-11"
+    },
+    "HG-001": {
+      "assignee": "MyFortress Agent",
+      "created": "2026-01-11",
+      "dependencies": [],
+      "id": "HG-001",
+      "priority": "High",
+      "status": "Done",
+      "title": "Define standalone service layout (gateway/core/api, config)",
+      "updated": "2026-01-11"
+    },
+    "HG-002": {
+      "assignee": "MyFortress Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "HG-001"
+      ],
+      "id": "HG-002",
+      "priority": "High",
+      "status": "Done",
+      "title": "Extract AAS plugin logic into service; expose gRPC/HTTP",
+      "updated": "2026-01-11"
+    },
+    "HG-003": {
+      "assignee": "Codex",
+      "created": "2026-01-11",
+      "dependencies": [
+        "HG-002"
+      ],
+      "id": "HG-003",
+      "priority": "High",
+      "status": "Done",
+      "title": "Update AAS plugin to consume standalone API",
+      "updated": "2026-01-31"
+    },
+    "HG-004": {
+      "assignee": "MyFortress Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "HG-001"
+      ],
+      "id": "HG-004",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add CI/build scripts + health checks",
+      "updated": "2026-01-11"
+    },
+    "HG-005": {
+      "assignee": "MyFortress Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "HG-001"
+      ],
+      "id": "HG-005",
+      "priority": "High",
+      "status": "Done",
+      "title": "Implement Home Merlin + Frigate API endpoints",
+      "updated": "2026-01-11"
+    },
+    "HG-006": {
+      "assignee": "AAS Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "HG-002"
+      ],
+      "id": "HG-006",
+      "priority": "High",
+      "status": "Done",
+      "title": "Publish client contract (HTTP/gRPC) + Python client for AAS",
+      "updated": "2026-01-11"
+    },
+    "HG-007": {
+      "assignee": "MyFortress Agent",
+      "created": "2026-01-11",
+      "dependencies": [
+        "HG-005"
+      ],
+      "id": "HG-007",
+      "priority": "Medium",
+      "status": "Done",
+      "title": "Add integration tests for connectors/API",
+      "updated": "2026-01-11"
+    },
+    "MM-001": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-001",
+      "priority": "Unknown",
+      "status": "Blocked",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-002": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-002",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-003": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-003",
+      "priority": "Unknown",
+      "status": "Done",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-004": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-004",
+      "priority": "Unknown",
+      "status": "Done",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-005": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-005",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-006": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-006",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-007": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-007",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-008": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-008",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-009": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-009",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-010": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-010",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-011": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-011",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-012": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-012",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-013": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-013",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-014": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-014",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-015": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-015",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-016": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-016",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-017": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-017",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-018": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-018",
+      "priority": "Unknown",
+      "status": "Queued",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-019": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-019",
+      "priority": "Unknown",
+      "status": "Done",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-020": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-020",
+      "priority": "Unknown",
+      "status": "Done",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-021": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-021",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-022": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-022",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-023": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-023",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-024": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-024",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-025": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-025",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-026": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-026",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-027": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-027",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-028": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-028",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-029": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-029",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-030": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-030",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-031": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-031",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-032": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-032",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-033": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-033",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-034": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-034",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-035": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-035",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-036": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-036",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-037": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-037",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-038": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-038",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-039": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-039",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-040": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-040",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-041": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-041",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-042": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-042",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-043": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-043",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-044": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-044",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-045": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-045",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-046": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-046",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-047": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-047",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-048": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-048",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-049": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-049",
+      "priority": "Unknown",
+      "status": "Blocked",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-050": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-050",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-051": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-051",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-052": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-052",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-053": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-053",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-054": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-054",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-055": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-055",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-056": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-056",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-057": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-057",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-058": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-058",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-059": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-059",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-060": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-060",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-061": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-061",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-062": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-062",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-063": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-063",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-064": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-064",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-065": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-065",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-066": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-066",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-067": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-067",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-068": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-068",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-069": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-069",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-070": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-070",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-071": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-071",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-072": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-072",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-073": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-073",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-074": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-074",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-075": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-075",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-076": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-076",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-077": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-077",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-078": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-078",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-079": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-079",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-080": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-080",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-081": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-081",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-082": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-082",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-083": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-083",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-084": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-084",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-085": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-085",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-086": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-086",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-087": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-087",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-088": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-088",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-089": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-089",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-090": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-090",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-091": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-091",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-092": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-092",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-093": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-093",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-094": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-094",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-095": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-095",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-096": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-096",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-097": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-097",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-098": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-098",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-099": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-099",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-100": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-100",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-101": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-101",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-102": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-102",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-103": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-103",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-104": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-104",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-105": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-105",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-106": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-106",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-107": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-107",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-108": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-108",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-109": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-109",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-110": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-110",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-111": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-111",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-112": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-112",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-113": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-113",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-114": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-114",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-115": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-115",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-116": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-116",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-117": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-117",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-118": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-118",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-119": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-119",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "MM-120": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "MM-120",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Unknown",
+      "updated": null
+    },
+    "PM-001": {
+      "assignee": null,
+      "created": null,
+      "dependencies": [],
+      "id": "PM-001",
+      "priority": "Unknown",
+      "status": "Unknown",
+      "title": "Convert Bot Execution Loops to Async/Await Patterns",
+      "updated": null
+    }
+  },
+  "version": "1.0.0"
+}

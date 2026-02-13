@@ -1,0 +1,115 @@
+{
+  "guild_config": {
+    "enable_model_management": true,
+    "enable_resource_awareness": true,
+    "resource_check_interval": 10,
+    "cost_optimization_enabled": true,
+    "fallback_timeout": 30
+  },
+
+  "resource_thresholds": {
+    "low": {
+      "cpu_max": 50.0,
+      "memory_max": 50.0,
+      "gpu_max": 50.0,
+      "strategy": "local_preferred"
+    },
+    "moderate": {
+      "cpu_max": 70.0,
+      "memory_max": 70.0,
+      "gpu_max": 70.0,
+      "strategy": "balanced"
+    },
+    "high": {
+      "cpu_max": 85.0,
+      "memory_max": 85.0,
+      "gpu_max": 85.0,
+      "strategy": "remote_preferred"
+    },
+    "critical": {
+      "cpu_max": 100.0,
+      "memory_max": 100.0,
+      "gpu_max": 100.0,
+      "strategy": "remote_only"
+    }
+  },
+
+  "remote_endpoints": [
+    {
+      "id": "openai_gpt4",
+      "name": "OpenAI GPT-4",
+      "endpoint_url": "https://api.openai.com/v1/chat/completions",
+      "provider": "openai",
+      "model_name": "gpt-4",
+      "cost_per_token": 0.00003,
+      "max_tokens": 8192,
+      "capabilities": ["text_generation", "reasoning", "coding", "analysis"],
+      "latency_ms": 2000,
+      "reliability_score": 0.99
+    },
+    {
+      "id": "openai_gpt35",
+      "name": "OpenAI GPT-3.5 Turbo",
+      "endpoint_url": "https://api.openai.com/v1/chat/completions",
+      "provider": "openai",
+      "model_name": "gpt-3.5-turbo",
+      "cost_per_token": 0.000002,
+      "max_tokens": 4096,
+      "capabilities": ["text_generation", "conversation", "coding"],
+      "latency_ms": 1500,
+      "reliability_score": 0.98
+    },
+    {
+      "id": "anthropic_claude",
+      "name": "Anthropic Claude 3 Sonnet",
+      "endpoint_url": "https://api.anthropic.com/v1/messages",
+      "provider": "anthropic",
+      "model_name": "claude-3-sonnet-20240229",
+      "cost_per_token": 0.000015,
+      "max_tokens": 4096,
+      "capabilities": ["text_generation", "reasoning", "analysis", "creative_writing"],
+      "latency_ms": 2500,
+      "reliability_score": 0.97
+    },
+    {
+      "id": "google_gemini",
+      "name": "Google Gemini Pro",
+      "endpoint_url": "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent",
+      "provider": "gemini",
+      "model_name": "gemini-pro",
+      "cost_per_token": 0.0000005,
+      "max_tokens": 2048,
+      "capabilities": ["text_generation", "reasoning", "multimodal"],
+      "latency_ms": 1800,
+      "reliability_score": 0.95
+    }
+  ],
+
+  "local_model_preferences": {
+    "prefer_quantized": true,
+    "max_memory_usage_gb": 16,
+    "max_vram_usage_gb": 12,
+    "auto_unload_unused": true,
+    "unload_timeout_minutes": 10
+  },
+
+  "cost_optimization": {
+    "enabled": true,
+    "daily_budget_usd": 10.0,
+    "prefer_local_for_simple_tasks": true,
+    "simple_task_keywords": [
+      "simple", "basic", "quick", "short", "brief", "summarize"
+    ],
+    "complex_task_keywords": [
+      "analyze", "complex", "detailed", "comprehensive", "research", "advanced"
+    ]
+  },
+
+  "monitoring": {
+    "log_routing_decisions": true,
+    "track_costs": true,
+    "alert_on_high_costs": true,
+    "cost_alert_threshold_usd": 5.0,
+    "performance_tracking": true
+  }
+}

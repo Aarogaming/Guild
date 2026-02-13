@@ -1,0 +1,41 @@
+{
+  "schemaName": "PluginManifest",
+  "schemaVersion": "1.0.0",
+  "name": "kernel",
+  "version": "0.1.0",
+  "description": "Guild hive kernel plugin",
+  "entry": "plugin.py",
+  "type": "plugin",
+  "capabilities": [
+    {
+      "schemaName": "Capability",
+      "schemaVersion": "1.0.0",
+      "name": "guild.hive.status",
+      "version": "0.1.0"
+    },
+    {
+      "schemaName": "Capability",
+      "schemaVersion": "1.0.0",
+      "name": "guild.hive.plugins",
+      "version": "0.1.0"
+    },
+    {
+      "schemaName": "Capability",
+      "schemaVersion": "1.0.0",
+      "name": "guild.hive.io",
+      "version": "0.1.0"
+    }
+  ],
+  "extensions": {
+    "aas": {
+      "hive": "guild",
+      "visibility": "global",
+      "exports": [
+        "guild.hive.status",
+        "guild.hive.plugins",
+        "guild.hive.io"
+      ],
+      "kernel": true
+    }
+  }
+}

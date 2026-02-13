@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "notes": [
+    "Derived from LM Studio eval runs on 2026-01-20.",
+    "Order matters: earlier models are preferred.",
+    "Use fallbacks when resource limits or latency spikes occur."
+  ],
+  "categories": {
+    "format": [
+      "qwen/qwen3-vl-4b",
+      "qwen/qwen3-vl-8b",
+      "google/gemma-3-12b",
+      "mistralai/ministral-3-3b",
+      "google/gemma-3n-e4b",
+      "liquid/lfm2.5-1.2b"
+    ],
+    "reasoning": [
+      "qwen/qwen3-vl-8b",
+      "qwen/qwen3-vl-4b",
+      "google/gemma-3-12b",
+      "qwen/qwen3-next-80b",
+      "mistralai/ministral-3-3b",
+      "google/gemma-3n-e4b",
+      "google_gemini"
+    ],
+    "code": [
+      "qwen/qwen3-coder-30b",
+      "mistralai/devstral-small-2-2512",
+      "mistralai/ministral-3-3b",
+      "google/gemma-3-12b",
+      "qwen/qwen3-vl-8b"
+    ],
+    "chat": [
+      "qwen/qwen3-vl-4b",
+      "google/gemma-3-12b",
+      "mistralai/ministral-3-3b",
+      "qwen/qwen3-vl-8b",
+      "google/gemma-3n-e4b",
+      "liquid/lfm2.5-1.2b",
+      "google_gemini"
+    ],
+    "vision": [
+      "qwen/qwen3-vl-30b",
+      "qwen/qwen3-vl-8b",
+      "qwen/qwen3-vl-4b",
+      "allenai/olmocr-2-7b"
+    ],
+    "ocr": [
+      "allenai/olmocr-2-7b",
+      "qwen/qwen3-vl-30b",
+      "qwen/qwen3-vl-8b",
+      "qwen/qwen3-vl-4b"
+    ]
+  },
+  "default_category": "chat",
+  "judges": {
+    "primary": [
+      "nousresearch/hermes-4-70b",
+      "google/gemma-3-27b"
+    ],
+    "oracle": [
+      "qwen/qwen3-next-80b"
+    ]
+  },
+  "teachers": [
+    "qwen/qwen3-next-80b",
+    "google/gemma-3-27b",
+    "nousresearch/hermes-4-70b",
+    "qwen/qwen3-coder-30b",
+    "qwen/qwen3-vl-30b"
+  ],
+  "fallbacks": [
+    "google/gemma-3n-e4b",
+    "liquid/lfm2.5-1.2b"
+  ]
+}

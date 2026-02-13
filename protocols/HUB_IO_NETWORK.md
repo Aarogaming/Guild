@@ -1,5 +1,8 @@
 # Guild Hub I/O Network
 
+Protocol Version: `1.0.0`
+Contract ID: `guild-hub-io-network`
+
 ## Purpose
 Define Guild-owned input/output lanes on top of AAS hub communication primitives.
 

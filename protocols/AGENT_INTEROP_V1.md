@@ -1,13 +1,10 @@
 # Agent Interop Protocol V1
 
-Protocol Version: `1.0.0`
-Contract ID: `guild-agent-interop-v1`
-
 This repo adopts the AAS inter-repo protocol baseline for synchronous operations.
 
 ## Version
 
-- Protocol version: `1.0.0`
+- Protocol version: `1.0`
 - Repo: `guild`
 
 ## Core request fields
@@ -49,6 +46,10 @@ This repo adopts the AAS inter-repo protocol baseline for synchronous operations
 - Major version changes are breaking.
 - Minor changes must be additive.
 - Unknown fields should be ignored, not rejected.
+
+## Local metadata
+
+- Contract ID: `guild-agent-interop-v1`
 
 ## Artifact location convention
 

@@ -1,0 +1,13 @@
+{
+  "protocol_version": "1.0",
+  "operation_id": "op_20260214_convention_bootstrap",
+  "request_id": "req_convention_bootstrap",
+  "ack": true,
+  "status": "completed",
+  "message": "artifact convention baseline seeded",
+  "artifacts": [
+    "guild/docs/repo-alignment/ARTIFACT_STORAGE_CONVENTIONS.md",
+    "guild/protocols/AGENT_INTEROP_V1.md"
+  ],
+  "updated_at_utc": "2026-02-14T00:00:00Z"
+}

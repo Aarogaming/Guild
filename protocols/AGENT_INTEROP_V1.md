@@ -49,3 +49,8 @@ This repo adopts the AAS inter-repo protocol baseline for synchronous operations
 - Major version changes are breaking.
 - Minor changes must be additive.
 - Unknown fields should be ignored, not rejected.
+
+## Artifact location convention
+
+- Response `artifacts` entries should use safe relative paths with repo prefix (for example `guild/docs/repo-alignment/PEER_BASELINE_REPORT.md`).
+- `docs/repo-alignment/ARTIFACT_STORAGE_CONVENTIONS.md`

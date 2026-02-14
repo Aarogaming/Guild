@@ -1,10 +1,13 @@
 # Agent Interop Protocol V1
 
+Protocol Version: `1.0.0`
+Contract ID: `guild-agent-interop-v1`
+
 This repo adopts the AAS inter-repo protocol baseline for synchronous operations.
 
 ## Version
 
-- Protocol version: `1.0`
+- Protocol version: `1.0.0`
 - Repo: `guild`
 
 ## Core request fields
